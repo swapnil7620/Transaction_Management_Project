@@ -32,7 +32,7 @@
                     try {
                         // Database connection details
                         Class.forName("com.mysql.cj.jdbc.Driver");
-                        connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/tms", "root", "Nice@7620");
+                        connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/tms", "root", "put your own password");
 
                         String query = "SELECT * FROM user_login WHERE account_number = ? AND password = ?";
                         PreparedStatement preparedStatement = connection.prepareStatement(query);
