@@ -19,7 +19,7 @@
 
             String url = "jdbc:mysql://localhost:3306/tms";
             String username = "root";
-            String password = "Nice@7620";
+            String password = "Put your own password";
 
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection connection = DriverManager.getConnection(url, username, password);
